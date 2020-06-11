@@ -1,0 +1,90 @@
+/*-------------------------------------*/
+/*----------- FONT FACES --------------*/
+/*-------------------------------------*/
+
+@font-face {
+    font-family: 'Damion';
+    src: url('Damion.eot');
+    src: url('Damion.eot?#iefix') format('embedded-opentype'),
+        url('Damion.woff2') format('woff2'),
+        url('Damion.woff') format('woff'),
+        url('Damion.ttf') format('truetype'),
+        url('Damion.svg#Damion') format('svg');
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: 'Comic Neue';
+    src: url('ComicNeue-Regular.eot');
+    src: url('ComicNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ComicNeue-Regular.woff2') format('woff2'),
+        url('ComicNeue-Regular.woff') format('woff'),
+        url('ComicNeue-Regular.ttf') format('truetype'),
+        url('ComicNeue-Regular.svg#ComicNeue-Regular') format('svg');
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: 'Glegoo';
+    src: url('Glegoo-Regular.eot');
+    src: url('Glegoo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Glegoo-Regular.woff2') format('woff2'),
+        url('Glegoo-Regular.woff') format('woff'),
+        url('Glegoo-Regular.ttf') format('truetype'),
+        url('Glegoo-Regular.svg#Glegoo-Regular') format('svg');
+    font-weight: 400px;
+}
+/*-------------------------------------*/
+/*---------- GENERAL STYLING ----------*/
+/*-------------------------------------*/
+
+body {
+    background-color: salmon;
+    width: 100%;
+    margin: 0px;
+    border: 3px dotted green;
+}
+#container {
+    margin: 0px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;   
+    width: 80%;
+    border: 3px dotted red;
+}
+
+/*-------------------------------------*/
+/*---------- CONTENT STYLING ----------*/
+/*-------------------------------------*/
+
+p { 
+    font-family: 'Damion';
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    border: 1px dotted blue;
+    background-image: url("https://media1.giphy.com/media/LnFcd0wwmiyD1CPtUl/source.gif");
+}
+
+#pic {
+    width: 500px;
+    height: 500px;
+    opacity: 0.6;
+    border: 1px dotted yellow;
+}
+
+#timer {
+    text-align: center;
+    align-content: center;
+    font-size: 100px;
+    margin-top: 100px;
+    color: slateblue;
+    background-color: turquoise;
+    border-radius: 40px;
+    width: 70%;
+    border: 1px dotted green;
+}
+
+
