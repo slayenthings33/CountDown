@@ -42,7 +42,6 @@ body {
     background-color: salmon;
     width: 100%;
     margin: 0px;
-    border: 3px dotted green;
 }
 #container {
     margin: 0px;
@@ -50,16 +49,15 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
     width: 80%;
-    border: 3px dotted red;
 }
 
 /*-------------------------------------*/
 /*---------- CONTENT STYLING ----------*/
 /*-------------------------------------*/
 
-p { 
+p {
     font-family: 'Damion';
     text-align: center;
     font-size: 100px;
@@ -72,7 +70,6 @@ p {
     width: 500px;
     height: 500px;
     opacity: 0.6;
-    border: 1px dotted yellow;
 }
 
 #timer {
@@ -84,7 +81,4 @@ p {
     background-color: turquoise;
     border-radius: 40px;
     width: 70%;
-    border: 1px dotted green;
 }
-
-
