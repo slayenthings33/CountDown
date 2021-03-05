@@ -1,56 +1,25 @@
 /*-------------------------------------*/
-/*----------- FONT FACES --------------*/
-/*-------------------------------------*/
-
-@font-face {
-    font-family: 'Damion';
-    src: url('Damion.eot');
-    src: url('Damion.eot?#iefix') format('embedded-opentype'),
-        url('Damion.woff2') format('woff2'),
-        url('Damion.woff') format('woff'),
-        url('Damion.ttf') format('truetype'),
-        url('Damion.svg#Damion') format('svg');
-    font-weight: 400px;
-}
-
-@font-face {
-    font-family: 'Comic Neue';
-    src: url('ComicNeue-Regular.eot');
-    src: url('ComicNeue-Regular.eot?#iefix') format('embedded-opentype'),
-        url('ComicNeue-Regular.woff2') format('woff2'),
-        url('ComicNeue-Regular.woff') format('woff'),
-        url('ComicNeue-Regular.ttf') format('truetype'),
-        url('ComicNeue-Regular.svg#ComicNeue-Regular') format('svg');
-    font-weight: 400px;
-}
-
-@font-face {
-    font-family: 'Glegoo';
-    src: url('Glegoo-Regular.eot');
-    src: url('Glegoo-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Glegoo-Regular.woff2') format('woff2'),
-        url('Glegoo-Regular.woff') format('woff'),
-        url('Glegoo-Regular.ttf') format('truetype'),
-        url('Glegoo-Regular.svg#Glegoo-Regular') format('svg');
-    font-weight: 400px;
-}
-/*-------------------------------------*/
 /*---------- GENERAL STYLING ----------*/
 /*-------------------------------------*/
 
 body {
-    background-color: salmon;
-    width: 100%;
+    /* background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 85%); 
+    width: 100vw;
     margin: 0px;
+    height: 100vh;
 }
 #container {
     margin: 0px;
-    padding: 50px 50px 50px 50px;
+    padding: 0px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    width: 80%;
+    width: 100vw;
 }
 
 /*-------------------------------------*/
@@ -58,26 +27,29 @@ body {
 /*-------------------------------------*/
 
 p {
-    font-family: 'Damion';
+    font-family: 'Akaya Telivigala', cursive;
     text-align: center;
-    font-size: 100px;
-    margin-top: 50px;
-    background-image: url("https://media1.giphy.com/media/LnFcd0wwmiyD1CPtUl/source.gif");
+    font-size: 3.25em;
+    color: rgb(63,94,251);
+    -webkit-text-stroke: 2px black;
 }
 
 #pic {
-    width: 500px;
-    height: 500px;
-    opacity: 0.6;
+    width: 70vw;
+    height: 40vh;
+    border-radius: 25px;
+    border: black solid 2px;
 }
 
 #timer {
     text-align: center;
     align-content: center;
-    font-size: 100px;
-    margin-top: 100px;
-    color: slateblue;
-    background-color: turquoise;
+    font-size: 2em;
+    margin-bottom: 2em;
+    color:rgb(63,94,251);
+    background-color:#fc466b;
+    opacity: .8;
     border-radius: 40px;
     width: 70%;
+    border: black solid 2px;
 }
