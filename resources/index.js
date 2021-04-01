@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("March 12, 2021 12:00:00").getTime();
+var countDownDate = new Date("April 3, 2021 23:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -23,6 +23,6 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Get ready for this DICK!";
+    document.getElementById("timer").innerHTML = "It's pussy poundin time!";
   }
 }, 1000);
